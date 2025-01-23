@@ -1,0 +1,37 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 200; /* Ensure navbar stays above content */
+    background-color: #2E2E30; /* Dark navbar */
+    padding: 10px 20px;
+    height: 60px;
+  }
+  
+  .navbar .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .navbar-brand img {
+    height: 50px;
+    width: 90px;
+  }
+  
+  .action_button {
+    background-color: #555; /* Color for sidebar toggle button */
+    border: none;
+    padding: 10px;
+    color: white;
+  }
+  
+  .navbar .d-flex {
+    flex-grow: 1;
+  }
+  
+  .navbar form {
+    width: 50%; /* Set a fixed width for search bar */
+  }
+  

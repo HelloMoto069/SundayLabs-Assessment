@@ -1,0 +1,77 @@
+.task-manager-container {
+  margin-left: 15%; /* Adjust this to match the sidebar width */
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background for contrast */
+  min-height: 100vh; /* Full height to match the sidebar */
+}
+
+/* Table styling for better readability */
+.task-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.task-table th,
+.task-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-table th {
+  background-color: #343a40; /* Dark background for table header */
+  color: #ffffff;
+}
+
+.task-table tr:hover {
+  background-color: #f1f1f1; /* Light hover effect */
+}
+
+/* Input fields and buttons */
+.input-group input {
+  border-radius: 5px;
+}
+
+.btn-primary {
+  border-radius: 5px;
+}
+
+.context-menu {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.context-menu button {
+  display: block;
+  background-color: #ff4d4f;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.context-menu button:hover {
+  background-color: #d9363e;
+}
+
+.round-checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  appearance: none;
+  -webkit-appearance: none;
+  outline: none;
+}
+
+.round-checkbox:checked {
+  background-color: #4caf50; /* Green color for checked */
+  border-color: #4caf50;
+}

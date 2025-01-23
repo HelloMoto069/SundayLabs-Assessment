@@ -1,0 +1,21 @@
+.main-content {
+    margin-left: 250px; /* Adjust this to the width of the sidebar */
+    padding-top: 80px; /* Add padding at the top to avoid content being hidden under the navbar */
+    padding: 20px; /* General padding */
+    background-color: #f4f4f4;
+    min-height: 100vh; /* Ensure full height */
+    z-index: 10; /* Ensure it stays behind the navbar but above the background */
+  }
+  
+  /* For smaller screens, ensure that the content is still usable */
+  @media (max-width: 768px) {
+    .main-content {
+      margin-left: 0; /* Remove left margin when on smaller screens */
+      padding-top: 120px; /* Add more padding if needed */
+    }
+  
+    .container1 {
+      width: 100%; /* Sidebar takes full width on smaller screens */
+    }
+  }
+  
